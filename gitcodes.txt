@@ -1,0 +1,33 @@
+git init                 first to start and make a repo
+git add file-x           add the file to be tracked
+git status               status of project
+git commit -m "modify the footer"    last step to return project to staged 
+git status -s            shortcut the status
+clear                    clear code
+cd                       change direction 
+git add .                add all files untracked
+git log                  show all history and versions to project
+click q to back from the list versions 
+git checkout paste hashId to version you want to go from log
+to back
+git log
+git checkout master
+---
+git rm --cached main.css   to return this file to unattacked
+then
+ceate file named .gitignore  text inside name of file you want git ignore 
+git add .gitignore
+git commit -m "add file .gitignore"
+---------------------------------------------------------------------------------------
+all of that was in local
+----------------------------------------------------------------
+git remote add origin https://github.com/zizo/projectname
+to make a name for the link of project "origin" -> you get the link copy from your account in github
+..
+git remote -v   to show names of links to make pull or push
+git branch -m main      to change branch from master to main 
+..
+git push -u origin main 
+
+
+
